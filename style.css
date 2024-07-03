@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 400px;
+    margin-top: 50px;
+    padding: 16px;
+}
+
+.input_box{
+    align-items: center;
+}
+.input_list{
+    margin-top: 8px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: black;
+    border-radius: 15px;
+    color:white;
+    width: 100%;
+}
+
+.results_values{
+    display: flex;
+    justify-content: center;
+}
+
+.result_value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    border-radius: 90px;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+}
