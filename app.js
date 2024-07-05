@@ -1,6 +1,6 @@
 async function sortear(){
 
-    
+    const filmes = ['Constantine']
 
     const numMin = Number(document.querySelector('#min').value) 
 
@@ -17,6 +17,11 @@ async function sortear(){
             documento.classList.add('result_value')
             documento.innerText = result
             elemento.append(documento)
+
+            const filmeinfo = document.createElement('div')
+            filmeinfo.classList.add('filme_info')
+            filmeinfo.innerHTML = filmes[0]
+            elemento.append(filmeinfo)
      
        await sleep(20)
     }
