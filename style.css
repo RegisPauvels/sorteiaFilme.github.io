@@ -34,6 +34,7 @@ button{
 .results_values{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .result_value{
@@ -46,4 +47,21 @@ button{
     width: 48px;
     height: 48px;
     font-size: 24px;
+}
+
+.filme_info{
+    align-items: center;
+    justify-content: center;
+}
+
+.filme_info img{
+    width: 200px;
+    height: 300px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
