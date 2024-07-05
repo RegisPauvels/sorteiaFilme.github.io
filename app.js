@@ -1,5 +1,6 @@
 async function sortear(){
     if(document.querySelector('.filme_info') != null){
+        
         document.querySelector('.filme_info').innerHTML = ''
         
     }
