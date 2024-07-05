@@ -1,6 +1,7 @@
 async function sortear(){
     if(document.querySelector('.filme_info') != null){
         document.querySelector('.filme_info').innerHTML = ''
+        
     }
     const filmesNome = [
         'Donnie Darko','Killer bean forever','Constantine (2005)','O exterminador do futuro 2','Mad Max Estrada da Furia',
